@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="App1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <RichTextBlock HorizontalAlignment="Center" Height="758" Margin="0,0,761,0" VerticalAlignment="Top" Width="605">
+            <Paragraph>
+                <Run Text="RichTextBlock"/>
+            </Paragraph>
+        </RichTextBlock>
+        <TextBox HorizontalAlignment="Left" Margin="703,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" RenderTransformOrigin="0.805,1.507"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="781,7,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>
