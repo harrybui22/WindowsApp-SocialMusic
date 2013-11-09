@@ -8,6 +8,13 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <RichTextBlock HorizontalAlignment="Center" Height="758" Margin="0,0,761,0" VerticalAlignment="Top" Width="605">
+            <Paragraph>
+                <Run Text="RichTextBlock"/>
+            </Paragraph>
+        </RichTextBlock>
+        <TextBox x:Name="userInput" HorizontalAlignment="Left" Margin="703,10,0,0" TextWrapping="Wrap" Text="Input [Artist Name]" VerticalAlignment="Top" RenderTransformOrigin="0.805,1.507" Height="32" Width="164" AcceptsReturn="True" InputScope="KatakanaFullWidth"/>
+        <Button x:Name="btnFind" Content="Find Music" HorizontalAlignment="Left" Margin="869,7,0,0" VerticalAlignment="Top" ClickMode="Press" Click="btnFind_Click"/>
 
     </Grid>
 </Page>
